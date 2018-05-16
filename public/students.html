@@ -20,16 +20,16 @@
     <title>LMS</title>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light">
-        <span class="navbar-brand mb-0 h1">LMS</span>
-        <span class="navbar-text">        
-            <a class="navbar-link" href="/students"><i class="material-icons" style="font-size: 30px">face</i></a>
-            &nbsp;
-            <a class="navbar-link" href="/teachers"><i class="material-icons" style="font-size: 30px">supervisor_account</i></a>
-            &nbsp;
-            <a class="navbar-link" href="/subjects"><i class="material-icons" style="font-size: 30px">library_books</i></a>
+    <nav class="navbar navbar-dark bg-dark ">
+      <span class="navbar-brand mb-0 h1">LMS</span>
+      <span class="navbar-text">        
+          <a class="navbar-link" href="/students"><div class="btn btn-light">Students</div></a>
+          &nbsp;
+          <a class="navbar-link" href="/teachers"><div class="btn btn-light">Teachers</div></a>
+          &nbsp;
+          <a class="navbar-link" href="/subjects"><div class="btn btn-light">Subjects</div></a>
 </span>
-    </nav>
+  </nav>
 <br>
 <br>
 
@@ -63,7 +63,7 @@
   </div>
   
 <div class="col-md-1">
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
         <i class="material-icons">
             person_add
             </i>
@@ -120,7 +120,7 @@
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           
           <div>
-              <button type="button" class="btn btn-primary" @click="addStudent">Add</button>
+              <button type="button" class="btn btn-secondary" @click="addStudent">Add</button>
             </div>
         </div>
       </div>

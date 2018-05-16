@@ -13,6 +13,6 @@ app.use('/', express.static(path.join(__dirname, 'public')))
 
 app.use('/', require('./routes/pages'))
 
-app.listen(process.env.PORT || 8181, () => {
+app.listen(process.env.PORT || 5566, () => {
   console.log("Server started")
 })
